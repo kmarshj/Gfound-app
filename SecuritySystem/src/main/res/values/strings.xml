@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="main_jwbb">警务报备系统</string>
+    <string name="main_spjk">视频监控系统</string>
+    <string name="main_dzsp">电子沙盘系统</string>
+    <string name="main_bbs">论坛</string>
+
+</resources>

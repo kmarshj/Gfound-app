@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主页 -->
+    <color name="main_navi_normal">#666666</color>
+    <color name="main_navi_checked">#FF00FF</color>
+    <color name="main_navi_back_checked">#FF0000</color>
+</resources>
