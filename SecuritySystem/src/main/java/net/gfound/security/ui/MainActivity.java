@@ -46,9 +46,10 @@ public class MainActivity extends FragmentActivity implements
         mAdapter = new MainPagerAdapter(getSupportFragmentManager(), fragments);
         mPager.isSaveEnabled();
         mPager.setAdapter(mAdapter);
-//        mPager.set
         mPager.setOnPageChangeListener(this);
         navi.check(R.id.main_navi_jwbb);
+        System.out.println("haha");
+        System.out.println("zhang");
     }
 //
 //    @Override
