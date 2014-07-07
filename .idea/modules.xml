@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gfound.iml" filepath="$PROJECT_DIR$/Gfound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gfound-app.iml" filepath="$PROJECT_DIR$/Gfound-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecuritySystem/SecuritySystem.iml" filepath="$PROJECT_DIR$/SecuritySystem/SecuritySystem.iml" />
     </modules>
   </component>

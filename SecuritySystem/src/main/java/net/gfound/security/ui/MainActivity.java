@@ -49,6 +49,7 @@ public class MainActivity extends FragmentActivity implements
         mPager.setOnPageChangeListener(this);
         navi.check(R.id.main_navi_jwbb);
         System.out.println("haha");
+        System.out.println("zhang");
     }
 //
 //    @Override
