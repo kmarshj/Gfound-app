@@ -3,4 +3,7 @@
     <dimen name="main_navi_size">36sp</dimen>
     <dimen name="main_navi_padding_vertical">8dp</dimen>
     <dimen name="main_navi_padding_horzontal">20dp</dimen>
+
+    <dimen name="jwbb_epd_item_height">60dp</dimen>
+    <dimen name="jwbb_text_size">18sp</dimen>
 </resources>

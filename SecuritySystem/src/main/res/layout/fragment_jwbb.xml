@@ -1,15 +1,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+    android:layout_height="match_parent">
 
-    <CheckBox
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="警务报备"
-        android:textColor="@android:color/black"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <ExpandableListView
+        android:id="@+id/elv_fj_operation"
+        android:layout_height="match_parent"
+        android:layout_width="250dp"
+        android:background="#1e1e1e"
+        android:groupIndicator="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="地图"
+            android:background="#00FF00"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/ln_fj_leftInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#AAAAAA"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/ln_fj_rightInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#AAAAAA"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" />
+    </RelativeLayout>
 
 </LinearLayout>

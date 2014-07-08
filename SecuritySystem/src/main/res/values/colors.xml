@@ -4,4 +4,10 @@
     <color name="main_navi_normal">#666666</color>
     <color name="main_navi_checked">#FF00FF</color>
     <color name="main_navi_back_checked">#FF0000</color>
+
+    <!-- 警务报备 -->
+    <color name="epd_group_text_selected">#c2e0f4</color>
+    <color name="epd_text_normal">#bebebe</color>
+    <color name="epd_group_selected">#1e3c50</color>
+    <color name="epd_child_bg">#141414</color>
 </resources>

@@ -9,6 +9,7 @@ import android.widget.RadioGroup;
 
 import net.gfound.security.R;
 import net.gfound.security.adapter.MainPagerAdapter;
+import net.gfound.security.ui.jwbb.JWBBFragment;
 
 import java.util.ArrayList;
 
