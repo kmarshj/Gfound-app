@@ -20,6 +20,7 @@ public class MainPagerAdapter extends FragmentPagerAdapter {
             this.fragmentsList = new ArrayList<Fragment>();
         } else {
             this.fragmentsList = fragmentsList;
+            System.out.println("1111");
         }
     }
 
