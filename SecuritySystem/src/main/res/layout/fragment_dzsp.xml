@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
-    <CheckBox
-        android:id="@+id/textView"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="电子沙盘"
-        android:textColor="@android:color/black"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_jqdw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="警情定位"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text_zbjlcx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="周边警力查询"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text_dzspld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电子沙盘联动"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text_yalczs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预案流程展示"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

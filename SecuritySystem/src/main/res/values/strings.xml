@@ -10,5 +10,16 @@
     <string name="main_spjk">视频监控系统</string>
     <string name="main_dzsp">电子沙盘系统</string>
     <string name="main_bbs">论坛</string>
-
+<!--电子沙盘系统-->
+    <string name="dzsp_query_style">查询方式</string>
+    <string name="dzsp_place_locate">地名定位</string>
+    <string name="dzsp_number_locate">门牌定位</string>
+    <string name="dzsp_default_place">八一广场</string>
+    <string name="dzsp_search_radius">周围资源查询半径</string>
+    <string name="dzsp_default_search_radius">500米</string>
+    <string name="dzsp_search_confirm">确认</string>
+    <string name="dzsp_result_car">GPS警车</string>
+    <string name="dzsp_result_videoPoint">视频点</string>
+    <string name="dzsp_result_securityBayonet">治安卡口</string>
+    <string name="dzsp_result_keyUnits">重点单位</string>
 </resources>
